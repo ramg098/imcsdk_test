@@ -1,6 +1,6 @@
 """Inventory helpers using ucsmsdk."""
 from ucsmsdk.utils import inventory
-from modules.utils import validate_sdk_method
+from imc_modules.utils import validate_sdk_method
 
 get_file, get_line = validate_sdk_method(inventory.get_inventory)
 

@@ -1,6 +1,6 @@
 """OS deployment utilities via KVM."""
 from ucsmsdk.utils import ucskvmlaunch
-from modules.utils import validate_sdk_method
+from imc_modules.utils import validate_sdk_method
 
 kvm_file, kvm_line = validate_sdk_method(ucskvmlaunch.ucs_kvm_launch)
 

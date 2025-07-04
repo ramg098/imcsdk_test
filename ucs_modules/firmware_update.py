@@ -1,6 +1,6 @@
 """Firmware update utilities."""
 from ucsmsdk.ucsgenutils import upload_firmware
-from modules.utils import validate_sdk_method
+from imc_modules.utils import validate_sdk_method
 
 upload_file, upload_line = validate_sdk_method(upload_firmware)
 

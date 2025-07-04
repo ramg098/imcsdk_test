@@ -1,7 +1,7 @@
 """Power control utilities using ucsmsdk."""
 from ucsmsdk.ucshandle import UcsHandle
 from ucsmsdk.mometa.compute.ComputeRackUnit import ComputeRackUnit
-from modules.utils import validate_sdk_method
+from imc_modules.utils import validate_sdk_method
 
 set_file, set_line = validate_sdk_method(UcsHandle.set_mo)
 commit_file, commit_line = validate_sdk_method(UcsHandle.commit)
